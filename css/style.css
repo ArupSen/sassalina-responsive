@@ -1,14 +1,25 @@
 /*
-Stylesheet for --Add website name here--
-Date: April 2009
+ _____                         ___
+(  _  )                       (  _`\
+| (_) | _ __  _   _  _ _      | | ) |   __    ___ (_)   __    ___    ___
+|  _  |( '__)( ) ( )( '_`\    | | | ) /'__`\/',__)| | /'_ `\/' _ `\/',__)
+| | | || |   | (_) || (_) )   | |_) |(  ___/\__, \| |( (_) || ( ) |\__, \
+(_) (_)(_)   `\___/'| ,__/'   (____/'`\____)(____/(_)`\__  |(_) (_)(____/
+                    | |                              ( )_) |
+                    (_)                               \___/'
+Stylesheet for Sassalina.com
+Date: April 2014
 Author: Arup Sen
 http://arupdesigns.co.uk
 arup@arupdesigns.co.uk
+Layout: Alyson Mowat
+alysonmowat@gmail.com
 css to zero courtesy of Eric Meyer with adjustments
 No license. Use what you like.
 Happy to receive feedback :)
 */
 
+/* css to zero */
 html, body, div, span,
 applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -49,7 +60,7 @@ content: "";}
 
 /* BG IMAGE PATH url('../images/my_image.gif') */
 /*the main global rules*/
-body{font-family:Arial, sans-serif;font-size:100.01%;position:relative;margin:0 auto;background-color:#FFFFFF;}
+body{font-family:Arial, sans-serif;font-size:100.01%;position:relative;margin:0 auto;background: url('../images/tile_bg.jpg') #FFFFFF;}
 div#wrap{}
 
 
