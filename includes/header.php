@@ -23,6 +23,8 @@ include_once DATAPATH.'meta_tags.php';
 <?php
 // Fontawesome and Bootstrap via bootstrapcdn which should leverage browser caching
 ?>
+<!-- Google webfonts Lato -->
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="<?php echo CSSPATH.'style.css'; ?>" type="text/css" media="screen" />
@@ -33,5 +35,10 @@ include_once DATAPATH.'meta_tags.php';
         <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-<div id="wrap">
-<h1>--Main Heading--</h1>
+<div id="wrap" class="container">
+<div class="logo">
+  <?php
+  img_tag('sassalina_logo.png');
+  ?>
+</div>
+<h1>Sassalina</h1>
