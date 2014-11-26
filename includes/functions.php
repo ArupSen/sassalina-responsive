@@ -25,4 +25,13 @@ function navbar()
 {
   require_once INCPATH.'navbar.php';
 }
+// create an underscore separated string to use as a filename
+// removes dashes and commas
+function create_filename($str)
+{
+  $filename = strtolower($str);
+  $replace = array("-" => "_", " " => "_", "," => "");
+  $filename = strtr($filename, $replace);
+  return $filename;
+}
 ?>
