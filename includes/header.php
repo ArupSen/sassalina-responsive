@@ -36,6 +36,18 @@ include_once DATAPATH.'meta_tags.php';
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 <div id="wrap" class="container">
+<div class="contact-bar">
+<a href="contact.php">contact</a>
+ <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Sign up to our Newsletter">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+<?php
+include INCPATH.'social.php';
+?>
+</div>
 <div class="logo">
   <?php
   img_tag('sassalina_logo.png');
