@@ -17,7 +17,7 @@ img_tag('footer_logo.png');
   </ul>
   </nav>
 <?php
-include_once('social.php');
+include('social.php');
 ?>
 </div> <!-- end of footer -->
 </div> <!-- end of wrap -->
