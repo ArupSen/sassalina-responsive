@@ -20,4 +20,4 @@
 </ul>
 </nav>
 <div id="clear"></div>
-<div id="contents">
+<div id="contents" class="clearfix">
