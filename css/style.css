@@ -182,6 +182,13 @@ ul#navbar li a{
 .about-pic img {
   float: right;
 }
+/* design page */
+.testimonial-show h4 {
+  cursor: pointer;
+}
+.show-hide {
+  display: none;
+}
 
 /* thumbnail pages */
 .thumbnail span {
