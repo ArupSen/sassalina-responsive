@@ -12,6 +12,8 @@ navbar();
     <li data-target="#carousel-sassalina" data-slide-to="0" class="active"></li>
     <li data-target="#carousel-sassalina" data-slide-to="1"></li>
     <li data-target="#carousel-sassalina" data-slide-to="2"></li>
+    <li data-target="#carousel-sassalina" data-slide-to="3"></li>
+    <li data-target="#carousel-sassalina" data-slide-to="4"></li>
   </ol>
 
   <!-- Wrapper for slides -->
@@ -29,6 +31,16 @@ img_tag('Planters_slide.jpg');
     <div class="item">
 <?php
 img_tag('smaller_ring.jpg');
+?>
+    </div>
+    <div class="item">
+<?php
+img_tag('slide_4.jpg');
+?>
+    </div>
+    <div class="item">
+<?php
+img_tag('slide_5.jpg');
 ?>
     </div>
   </div>
