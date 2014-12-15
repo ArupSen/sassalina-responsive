@@ -9,7 +9,7 @@ navbar();
 
 // the unique contents will go here up to the footer
 ?>
-<h2>COLOURED RINGS</h2>
+<h2>GEMSTONE RINGS</h2>
 <?php
 include_once INCPATH.'collection.php';
 ?>
