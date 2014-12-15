@@ -36,4 +36,8 @@
     $('meta[name="description"]').attr('content', $details.find('p').text());
     $details.find('img').attr('alt', $details.find('h2').text());
   }
+  // slide toggle the testimonial paragraph on the design page
+  $(".testimonial-show").find('h4').on('click', function() {
+    $(".show-hide").slideToggle();
+  });
 }());
