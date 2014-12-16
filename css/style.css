@@ -109,9 +109,6 @@ div#wrap{background-color: #FFF;}
 .form-control {
   height: 24px;
 }
-input.form-control {
-  min-width: 101%;
-}
 @media (min-width: 768px) {
   .navbar-left {
   float: none !important;
@@ -237,6 +234,10 @@ li.dropdown:hover .dropdown-menu {
 }
 .about-pic img {
   float: right;
+}
+.row.logos img {
+  width: 30%;
+  margin: 40px auto 0;
 }
 /* design page */
 .testimonial-show h4 {
