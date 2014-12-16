@@ -74,18 +74,22 @@ div#wrap{background-color: #FFF;}
   position: relative;
   width: 102.7%;
   left: -1.3%;
+  margin-bottom: 10px;
 }
 .contact-bar a {
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 16px;
   color: #666;
   padding: 3px 5px;
+  font-weight: 300;
+  letter-spacing: 1.3px;
 }
 .contact-bar a:hover {
   text-decoration: none;
 }
 .contact-bar .social-icons a {
   font-size:20px;
+  color: #999;
 }
 .contact-bar .social-icons {
   display: inline;
@@ -94,11 +98,29 @@ div#wrap{background-color: #FFF;}
 .navbar-form {
   display: inline;
   margin-left: 54%;
+  font-weight: 300;
+}
+.navbar-form  .btn {
+  font-weight: 300;
+  color:#666;
+  line-height: 10px;
+  margin-top:2px;
+}
+.form-control {
+  height: 24px;
+}
+input.form-control {
+  min-width: 101%;
 }
 @media (min-width: 768px) {
   .navbar-left {
   float: none !important;
   }
+}
+a.contact-link {
+  font-size: 14px;
+  position: relative;
+  top: 1px;
 }
 h1 {
   font-size:0;
@@ -108,6 +130,12 @@ h1 {
   text-align: center;
   padding-bottom: 30px;
 }
+#contents h4 {
+  font-weight: 300;
+  font-size:16px;
+  letter-spacing:1px;
+  margin-bottom: 1em;
+}
 .logo img {
   margin: 0 auto;
 }
@@ -116,8 +144,12 @@ h1 {
 /*content area*/
 div#contents{}
 #contents p{
-  font-size: 12px;
+  font-size: 13px;
   color: #666;
+  font-weight: 300;
+  letter-spacing:0.7px;
+  line-height:1.5em;
+  margin-bottom:1em;
 }
 hr {
   width: 50%;
@@ -127,10 +159,11 @@ hr {
 #contents ul, #contents h2{}
 #contents h2 {
   text-align: center;
-  color: #999;
+  color: #ccc;
   font-size: 26px;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
   text-transform: uppercase;
+  font-weight: 300;
 }
 #contents h2{}
 #contents li{}
@@ -154,7 +187,30 @@ ul#navbar li a{
   text-decoration:none;
   color: #666;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1.3px;
+}
+ul#navbar ul li a {
+  font-size: 12px;
+}
+ul#navbar ul li a:hover, ul#navbar li a:hover {
+  background: none;
+  color: #999;
+}
+.nav>li>a:hover {
+  background: none;
+  color: #999;
+}
+li.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-menu {
+  margin-top: -5px;
+}
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+ background-color: #fff;
+ border-color: #fff;
 }
 /* home page */
 .carousel {
@@ -200,14 +256,24 @@ ul#navbar li a{
   margin: 0 auto;
   display: block;
   width: 100%;
+  font-size: 14px;
+  font-weight: 300;
 }
 .thumbnail {
   border: none;
 }
 
 /* detail pages */
+#contents .details h2 {
+  font-size: 16px;
+  margin-top:10px;
+}
 .details p {
   text-align: center;
+  font-size:13px !important;
+  font-weight:300;
+  letter-spacing:0.7px;
+  line-height:1.5em;
 }
 .back-button {
   text-transform: uppercase;
@@ -217,6 +283,10 @@ ul#navbar li a{
 .testimonial {
   width:50%;
   margin: 50px auto 0;
+  font-weight:300;
+  padding-left:30px;
+  letter-spacing:0.7px;
+  line-height:1.3em;
 }
 .testimonial h4, .testimonial p {
   text-align: center;
