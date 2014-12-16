@@ -6,7 +6,7 @@
 // back button is only used in the details pages
 $back_button = array(
   '_href' => 'coloured_rings.php', // relative url to main collection page
-  '_text' => 'coloured rings' // title attribute of back button and text
+  '_text' => 'gemstone rings' // title attribute of back button and text
 );
 
 // array of image file names, which is also title of item and then blurb
