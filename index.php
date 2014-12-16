@@ -20,7 +20,7 @@ navbar();
   <div class="carousel-inner" role="listbox">
     <div class="item active">
 <?php
-img_tag('jewels_slide.jpg');
+img_tag('bespoke2.jpg');
 ?>
     </div>
     <div class="item">
