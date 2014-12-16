@@ -40,7 +40,7 @@ include_once DATAPATH.'meta_tags.php';
 <a href="contact.php" class="contact-link">contact</a>
  <form class="navbar-form navbar-left" role="search">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Sign up to our Newsletter">
+          <input type="text" class="form-control" placeholder="Sign up to our Newsletter" size="21">
         </div>
         <button type="submit" class="btn btn-default">Submit</button>
       </form>
