@@ -18,7 +18,7 @@ navbar();
   </p>
   </div>
 </div>
-<div class="row">
+<div class="row logos">
   <div class="col-md-4">
   <?php img_tag('slf_logo.jpg'); ?>
   </div>
