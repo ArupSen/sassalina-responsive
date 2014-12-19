@@ -246,6 +246,13 @@ li.dropdown:hover .dropdown-menu {
 .show-hide {
   display: none;
 }
+#design #contents hr {
+  width:100%;
+}
+.show-hide p {
+  color: rgb(34, 160, 59) !important;
+  font-style: italic;
+}
 
 /* thumbnail pages */
 .thumbnail span {
