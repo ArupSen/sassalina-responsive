@@ -35,11 +35,12 @@ To add a new piece to a collection in the bespoke section you would proceed as f
 * Data file for the collection where that piece will feature
 
 Start by adding the name and description of the piece into the appropriate data file e.g. earrings_data.php which is located in the data folder. Where this is placed will determine its position on the collection page. Use the `convert_text.rb` file to generate a filename from the item title to be used to create the new filename for the piece and for the details file. They will be something like `new_piece_earrings_large.jpg` and `new_piece_earrings_large.php`. Both will have the same name but different extensions. Upload the image into the images folder with the new name. To create the details file copy the details template file into the new file name as follow:
+
 `cp details_template.php new_piece_earrings_large.php`
 Edit the new file by adding the name of the collection so that it knows which data file to look up. Upload this file into the root directory.
 
 ### Adding Testimonials
-Testimonials have a one to many relationship i.e. one testimonial is used on many items. All the testimonials are in the `testimonials_data.php` file in the data folder. They are set up as a multidimensional array structure, read hash table. In order for them to appear in the detail pages a few extra lines need to be added to the basic set up.
+Testimonials have a one to many relationship i.e. one testimonial is used on many items. All the testimonials are in the `testimonials_data.php` file in the data folder. They are set up as a multidimensional associative array structure, [essentially a hash table]. In order for them to appear in the detail pages a few extra lines need to be added to the basic set up.
 * require the testimonials_data file - `require_once DATAPATH.'testimonials_data.php'`
 * assign name of hash key to the $name variable - `$name = 'cathy'`
 * include the testimonial.php partial file - `include_once INCPATH.'testimonial.php'`
