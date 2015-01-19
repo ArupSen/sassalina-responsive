@@ -16,6 +16,7 @@ navbar();
 <p>Every client's requirements are unique and my job is to make your dream come true….with some expert advice to avoid some of the pitfalls. I believe designing the perfect piece is often a blend of connecting with the emotional reasons for a commission whilst taking into account the physical features of the wearer and practical elements of how the piece will be worn.</p>
 <p>
 After considering your budget, I will choose a selection of stones for you to peruse. The gem may be rare one of a kind, or you may have several stones to select from.  We then spend as long as you need considering different designs in order to make the dream a reality.</p>
+<p>Incredible quality white and coloured diamonds and rare and untreated coloured gemstones have also been sourced from abroad for specialist collectors. Gemmological Lab certificates supplied if required. I can also make high end gem bead necklaces to order, stringing and jewellery repair is also available.</p>
   </div>
 </div>
 <hr>
