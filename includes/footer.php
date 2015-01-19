@@ -11,9 +11,9 @@ img_tag('footer_logo.png');
 <hr class="right-line">
   <nav class="navbar navbar-default" role="navigation">
   <ul id="navbar" class="nav nav-justified">
-    <li id="nav-privacy"><a href="privacy.php" title="privacy and cookies">privacy and cookies</a></li>
+    <li id="nav-privacy"><a href="cookies.pdf" target="_blank" title="privacy and cookies">privacy and cookies</a></li>
     <li id="nav-contact"><a href="contact.php" title="contact">contact</a></li>
-    <li id="nav-terms"><a href="terms.php" title="terms and conditions">terms and conditions</a></li>
+    <li id="nav-terms"><a href="terms_and_conditions.pdf" target="_blank" title="terms and conditions">terms and conditions</a></li>
   </ul>
   </nav>
 <?php
