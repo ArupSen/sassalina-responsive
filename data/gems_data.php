@@ -26,7 +26,9 @@ array('Green Madagascan Sapphire oval','9.01cts (13.4x10.4mm)'),
 array('Burmese Red Spinel Cushion','9.35cts (13.5x11.7mm)'),
 array('peridot oval','15.45cts (18.4x13.1mm)'),
 array('Deep pink tourmaline oval','22.86cts (19.2x16.8mm)'),
-array('Black star diopside','This fabulous set of star Diopside could be used to make another set of cufflinks…the original pair were set in 9 ct white gold and engraved on the rods with the couple\'s wedding anniversary…unfortunately they were whisked over to Ireland for a Christmas present before I could photograph them!!')
+array('Black star diopside','This fabulous set of star Diopside could be used to make another set of cufflinks…the original pair were set in 9 ct white gold and engraved on the rods with the couple\'s wedding anniversary…unfortunately they were whisked over to Ireland for a Christmas present before I could photograph them!!'),
+array('Set of multi coloured rose cut sapphires', 'Total weight 16.61 cts, see \'Necklaces\' for setting options.'),
+array('Set of pink rose cut Sapphires','Total weight 8.49cts, see \'Necklaces\' for setting options ')
 );
 // add the extra blurb to the existing blurb
 $item_count = count($items);
