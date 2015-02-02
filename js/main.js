@@ -40,4 +40,8 @@
   $(".testimonial-show").find('h4').on('click', function() {
     $(".show-hide").slideToggle();
   });
+  // set speed of carousel
+  $('.carousel').carousel({
+      interval: 3000
+  });
 }());
