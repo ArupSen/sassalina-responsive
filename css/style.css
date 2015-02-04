@@ -94,25 +94,22 @@ div#wrap{background-color: #FFF;}
 .contact-bar .social-icons {
   display: inline;
   float: right;
+  margin-top: -21px;
 }
 .navbar-form {
   display: inline;
-  margin-left: 54%;
+  margin-left: 61%;
   font-weight: 300;
+  margin-top: -21px;
 }
 .navbar-form  .btn {
   font-weight: 300;
   color:#666;
   line-height: 10px;
-  margin-top:2px;
+  margin-top:1px;
 }
 .form-control {
   height: 24px;
-}
-@media (min-width: 768px) {
-  .navbar-left {
-  float: none !important;
-  }
 }
 a.contact-link {
   font-size: 14px;
@@ -229,8 +226,9 @@ li.dropdown:hover .dropdown-menu {
 }
 /* about page */
 #about #contents p {
-  max-width: 260px;
+  max-width: 370px;
   padding-bottom: 1em;
+  margin-top: -4px;
 }
 .about-pic img {
   float: right;
@@ -239,19 +237,46 @@ li.dropdown:hover .dropdown-menu {
   width: 30%;
   margin: 40px auto 0;
 }
+.slf img {
+  position: relative;
+  left: 185px;
+  top: 40px;
+}
+.leopard img {
+  position: relative;
+  right: 180px;
+  top: 18px;
+}
 /* design page */
+#design .row {
+  margin-left: 25px;
+  margin-right: 25px;
+}
 .testimonial-show h4 {
   cursor: pointer;
+  font-size: 13px !important;
+  color: #666;
 }
 .show-hide {
   display: none;
 }
 #design #contents hr {
-  width:100%;
+  width:93%;
 }
 .show-hide p {
-  color: rgb(34, 160, 59) !important;
   font-style: italic;
+  margin-right: 40px;
+}
+p.before-text, p.after-text {
+position: absolute;
+right: 60px;
+}
+p.before-text {
+  bottom: 5px;
+}
+.testimonial-show {
+position: relative;
+top: -40px;
 }
 
 /* thumbnail pages */
@@ -343,6 +368,43 @@ font-style: italic;
   padding: 0 5px;
   color: #999;
   font-size: 20px;
+}
+/* small screens */
+@media (max-width: 767px) {
+  .navbar-form .form-group {
+    width: 42%;
+  }
+  #footer hr.left-line {
+     left: 0; 
+  }
+  #footer hr.right-line {
+    right: 0;
+  }
+  #footer ul {
+    width: 100%;
+  }
+  #footer ul#navbar {
+    background: #fff;
+  }
+  #footer ul#navbar li a {
+    float: left;
+    padding: 0 10px;
+    font-size: 10px;
+  }
+  li#nav-terms {
+    position: relative;
+    left: 5%;
+  }
+  .nav-justified>li {
+    float: left;
+  }
+  ul#navbar {
+    width: auto;
+    background: #cae9eb;
+  }
+  ul#navbar {
+    padding-left: 7%;
+  }
 }
 /*all the Safari stuff together*/
 @media screen and (-webkit-min-device-pixel-ratio:0){
