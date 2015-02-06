@@ -372,7 +372,7 @@ font-style: italic;
 /* small screens */
 @media (max-width: 767px) {
   .navbar-form .form-group {
-    width: 42%;
+    width: 70%;
   }
   #footer hr.left-line {
      left: 0; 
@@ -388,8 +388,8 @@ font-style: italic;
   }
   #footer ul#navbar li a {
     float: left;
-    padding: 0 10px;
-    font-size: 10px;
+    padding: 0 2px;
+    font-size: 7px;
   }
   li#nav-terms {
     position: relative;
@@ -398,12 +398,63 @@ font-style: italic;
   .nav-justified>li {
     float: left;
   }
+  .nav>li>a {
+    padding: 10px 6px;
+  }
   ul#navbar {
     width: auto;
     background: #cae9eb;
   }
-  ul#navbar {
-    padding-left: 7%;
+  ul#navbar li a {
+    font-size: 14px;
+  }
+  .contact-bar .social-icons {
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  div#mc_embed_signup {
+    width: 86%;
+    padding-left: 3px;
+  }
+  .navbar-form .btn {
+    position: absolute;
+    left: 181px;
+    top: 43px;
+  }
+  .slf img {
+    top: 0;
+    left: 0;
+  }
+  .leopard img {
+    top: 0;
+    right: 0;
+  }
+  .testimonial-show {
+    top: 30px;
+  }
+  p.before-text, p.after-text {
+    right: 0;
+  }
+  .about-pic img {
+    float: none;
+  }
+  #design .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #design .col-md-8 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .back-button {
+    position: relative;
+    top: -60px;
+    display: block;
+  }
+  #contents h2 {
+    margin-top: 10px;
   }
 }
 /*all the Safari stuff together*/
