@@ -20,11 +20,6 @@ navbar();
   <div class="carousel-inner" role="listbox">
     <div class="item active">
 <?php
-img_tag('pink_jewels_2.jpg');
-?>
-    </div>
-    <div class="item">
-<?php
 img_tag('Planters_slide.jpg');
 ?>
     </div>
@@ -41,6 +36,11 @@ img_tag('slide_4.jpg');
     <div class="item">
 <?php
 img_tag('slide_5.jpg');
+?>
+    </div>
+    <div class="item">
+<?php
+img_tag('pink_jewels_2.jpg');
 ?>
     </div>
   </div>
