@@ -439,6 +439,7 @@ font-style: italic;
   }
   .about-pic img {
     float: none;
+    padding-bottom: 1em;
   }
   #design .row {
     margin-left: 0;
@@ -455,6 +456,21 @@ font-style: italic;
   }
   #contents h2 {
     margin-top: 10px;
+  }
+}
+/* iPad landscape rules */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape) {
+  .navbar-left {
+    margin-left: 48% !important;
+  }
+  .navbar-form .btn {
+    margin-top: 0;
+  }
+  .testimonial-show h4 {
+    margin-top: 2em;
+  }
+  #footer .social-icons {
+    margin: -25px 0 50px !important;
   }
 }
 /*all the Safari stuff together*/
