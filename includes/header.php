@@ -13,9 +13,6 @@ include_once DATAPATH.'meta_tags.php';
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<?php // leave in during development and remove once live ?>
-<meta name="robots" content="noindex, nofollow">
-
 
 <title><?php echo ${$filename}['title']; ?></title>
 <meta name="description" content="<?php echo ${$filename}['description']; ?>" />
